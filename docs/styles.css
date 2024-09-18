@@ -47,12 +47,13 @@ h2 {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Alinhamento dos labels e inputs */
 .form-container label {
     font-weight: bold;
     display: block;
     margin-top: 10px;
     color: #34495e;
-    text-align: left;
+    text-align: left; /* Mantém os labels alinhados à esquerda */
 }
 
 .form-container input, 
@@ -63,6 +64,7 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 4px;
     transition: border 0.3s ease;
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
 }
 
 .form-container input:focus, 
@@ -72,6 +74,7 @@ h2 {
     box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
 }
 
+/* Botão centralizado */
 .form-container button {
     width: 100%;
     margin-top: 20px;
@@ -92,14 +95,7 @@ h2 {
 /* Responsividade */
 @media (min-width: 768px) {
     .form-container {
-        width: 48%;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 4%;
-    }
-
-    .form-container:nth-child(2n) {
-        margin-right: 0;
+        width: 100%; /* Mantém o formulário ocupando 100% do espaço disponível */
     }
 }
 
@@ -113,3 +109,4 @@ h2 {
         font-size: 1.8em;
     }
 }
+
