@@ -29,9 +29,9 @@ Bibliotech é um sistema de gerenciamento de biblioteca desenvolvido em PHP. Ele
 - **Remover usuários:** Permite ao administrador remover usuários do sistema.
 
   
-###Participantes
-- **Rafael Diego Vendramini Carlota 202302381456
-- **José Gabriel Luna 202303870906
-- **Jacira Severina Da Silva 202402674234
-- **Murilo Cotrim De Paula 202402558218
-- **Suellen Alice Posinatto 202203117841
+### Participantes
+- **Rafael Diego Vendramini Carlota 202302381456**
+- **José Gabriel Luna 202303870906**
+- **Jacira Severina Da Silva 202402674234**
+- **Murilo Cotrim De Paula 202402558218**
+- **Suellen Alice Posinatto 202203117841**
